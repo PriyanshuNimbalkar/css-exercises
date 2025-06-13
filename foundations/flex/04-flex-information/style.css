@@ -1,5 +1,5 @@
 body {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 img {
@@ -24,3 +24,58 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* top solution */
+
+body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+info {
+  max-width: 200px;
+}
+
+
+
+
+
+/* my solution */
+/* 
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.low-1 {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+
+.low-2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 52px;
+  width: 1100px;
+  margin: 10px;
+} */
